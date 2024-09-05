@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHIVAKR-PORTFOLIO</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="image/png" href="images/Dhivakar Portfolio.png">
+    <script src="https://kit.fontawesome.com/af768fbc65.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+<body>
+<!-- --------cover------ --->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/d2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenuu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Python Full Stack Developer</p>
+                <h1>Hi,  I'm <span>Dhivakar</span> <br><span id="sp1">From Thanjavur</span></h1>
+            </div>
+            
+
+        </div>
+    </div>
+
+<!----------- About ------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/dhiva-removebg-preview-removebg-preview.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>To achieve high career growth through a continuous learning process, keep me dynamic, visionary, and
+                        competitive with the changing scenario of the world and to contribute for the growth of the organization.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link " onclick="opentab('skils')">Skils</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skils">
+                        <ul>
+                            <li><span>Python</span><br>Python is great for automating tasks, analyzing data, and building websites.</li>
+                            <li><span>Web Development</span><br>Web development involves designing and coding websites and applications, handling both the look and functionality.</li>
+                            <li><span>SQL</span><br>SQL is used to create, update, and query databases, allowing you to organize and manage data efficiently.</li>
+                            <li><span>Django</span><br>Django is a Python framework that makes it easy to build secure and scalable web applications quickly.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Python Full Stack Development Training at QSpider Institute</li>
+                            <li><span>2023</span><br>BCA from PRIST UNIVERSITY Thanjavur - CGPA 7.66</li>
+                            <li><span>2020</span><br>HSC from Governmant Hr. Sec School Veeramangudi - Percentage 63</li>
+                            <li><span>2018</span><br>SSLC from Government Hr. Sec School Veeramangudi - Percentage 76.8</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------services--------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-bug"></i>
+                <h2>Python Development</h2>
+                <p>In a Python development role, you will be responsible for creating and maintaining software applications using Python, known for its readability and efficiency. Your day-to-day tasks will include writing and optimizing code, debugging issues, and ensuring the performance and scalability of your applications. 
+                </p>
+                <a href="https://www.python.org/jobs/" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>               
+                <h2>Web Development</h2>
+                <p>you'll be involved in creating and maintaining dynamic and responsive websites and web applications. Your role will encompass both front-end and back-end tasks: designing intuitive user interfaces with HTML, CSS, and JavaScript, and developing server-side logic with languages like Python.You'll work with databases to manage data, integrate APIs to connect various parts of the application, and ensure
+                </p>
+                <a href="https://www.webfx.com/web-development/glossary/what-is-web-development/" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Full Stack Development</h2>
+                <p>Full-stack development encompasses the comprehensive skill set required to build and manage both the client-side and server-side components of a web application. On the front end, developers focus on crafting engaging and interactive user interfaces using HTML, CSS, and JavaScript, often leveraging frameworks like React or Angular to enhance functionality. 
+                </p>
+                <a href="https://aws.amazon.com/what-is/full-stack-development/#:~:text=Full%2Dstack%20developers%20are%20adept,management%20simpler%20and%20more%20streamlined." target="_blank">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- ----------work--------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/re2.avif" alt="">
+                <div class="layer">
+                    <h3>Movie-Review App</h3>
+                    <p>User Authentication & Management: Implemented secure user authentication (signup, login, logout) using Django's authentication system. Managed user roles</p>
+                    <a href="https://github.com/k-DHIVAKAR/MOVIEW_REVIEW_BLOCK" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/sh.jpg" alt="">
+                <div class="layer">
+                    <h3>ShoopingCart-mini</h3>
+                    <p>I developed a Shopping Cart system focused on backend functionalities and efficient data handling. Utilizing Python(programming language), I created a seamless user shopping experience with features like product browsing, cart management, </p>
+                    <a href="https://github.com/k-DHIVAKAR/E-Commerce-Shoppingcart-mini/blob/main/Shoppingcart-mini.py" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/po.jpg" alt="">
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>Developed a sleek and responsive personal portfolio website for Dhivakar using HTML, CSS, and Bootstrap to showcase his skills and projects </p>
+                    <a href="https://dhivakar-portfolio.netlify.app/#contact" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn">See more</a>
+    </div>
+ </div>
+
+ <!-- ----------contact---------- -->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>dhivakardhiva1903@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +91 9345920012</p>
+                <div class="socail-icons">
+                    <a href="https://www.linkedin.com/in/dhivakarkaliyamoorthi19/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/k-DHIVAKAR" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/dhivakar_res.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="" name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" id="" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message" id=""></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Desinged and Developed by Dhivakar <i class="fa-solid fa-heart"></i>. Copyright © 2024. </p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove('active-link');
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove('active-tab');
+        }
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabname).classList.add('active-tab');
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = '0';
+    }
+    function closemenuu(){
+        sidemenu.style.right = '-200px';
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwJvbP9NrqqmSD9ng5cZ5XvYHMW2M-Jb5p36xJjyleTMYFrWtv5io3mnsN0H0YhHDu8/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Recevied your message successfully!"
+
+        setTimeout(function() {
+            msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
